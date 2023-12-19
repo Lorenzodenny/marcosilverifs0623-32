@@ -13,8 +13,8 @@ function Books() {
             {books.fantasy.map((book) => {
                 return(
                     <Col key={book.asin}>
-                    <Card>
-                       <Card.Img variant="top" src={book.img} />
+                    <Card style={{ height: '70vh', width: '25vh' }}>
+                       <Card.Img variant="top" src={book.img} style={{ height: '200px', width: '25vh' }} />
                        <Card.Body>
                        <Card.Title>{book.title}</Card.Title>
                        <Card.Text>
