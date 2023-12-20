@@ -4,8 +4,10 @@ import BasicExample from './components/myNavbar';
 import Footer from './components/myFooter';
 import Welcome from './components/Welcome';
 import Books from './components/AllTheBooks';
+import BookList from './components/BookList';
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -13,7 +15,8 @@ function App() {
          <Welcome />
       </header>
       <main>
-        <Books />
+        <BookList />
+        {/* <Books /> */}
       </main>
       <footer>
         <Footer />
